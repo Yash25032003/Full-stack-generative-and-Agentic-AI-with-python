@@ -17,7 +17,29 @@
 // myproject/
 //  └── mathutils/
 //      ├── __init__.py
-//      ├── add.py
-//      └── subtract.py
+//      ├── add.py //? modules
+//      └── subtract.py //? modules
 
 //* mathutils folder ko hai vo package hoga because vo special file contain kar raha hai and multiple python files(modules) bhi contain kar raha hai.
+
+//! Q3. What is virtual environment in python?
+// Python me virtual environment ek isolated (alag) environment hota hai, jisme hum kisi project ke packages alag se install kar sakte hain, bina system ke global Python ko affect kiye.
+
+// Agar virtual environment na ho, to sab projects same global packages use karenge, jisse version conflict ho sakta hai.
+
+//* How to Create a Virtual Environment
+// Step 1 – Create(terminal me below command run karo)
+// python -m venv myenv
+
+// Step-2 Activate karna (terminal me below command run karo)
+// myenv\Scripts\activate
+
+// Step 3 – Install Packages (terminal me below command run karo)
+// pip install flask
+
+// Step 4 – Deactivate
+// deactivate
+
+//! Important baat inside the python ecosystem always work in virtual environment (venv)
+
+//? venv is a traditional way to ship and organize the code.
