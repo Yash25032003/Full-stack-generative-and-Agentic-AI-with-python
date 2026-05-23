@@ -8,4 +8,6 @@ print(f"The second sugar is : {sugar_amount}")
 
 print(f"Id of 2 is : {id(2)}")
 print(f"id of 12 is : {id(12)}")
+
+
 # both id are different not same matlab they are immutable
